@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-02T15:40:01 IST" name="Suite" finished-at="2024-09-02T15:40:27 IST" duration-ms="26091">
+    <groups>
+    </groups>
+    <test started-at="2024-09-02T15:40:01 IST" name="Test" finished-at="2024-09-02T15:40:27 IST" duration-ms="26091">
+      <class name="tests.TestTwo">
+        <test-method signature="testTwo()[pri:0, instance:tests.TestTwo@139982de]" started-at="2024-09-02T15:40:27 IST" name="testTwo" finished-at="2024-09-02T15:40:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- tests.TestTwo -->
+      <class name="tests.Login">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:tests.Login@36fc695d]" started-at="2024-09-02T15:40:01 IST" name="openApplication" finished-at="2024-09-02T15:40:08 IST" duration-ms="6920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Login@36fc695d]" started-at="2024-09-02T15:40:08 IST" name="login" data-provider="loginData" finished-at="2024-09-02T15:40:10 IST" duration-ms="2486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aniket.kulkarni733@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aniket@3di]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Successfull]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.Login@36fc695d]" started-at="2024-09-02T15:40:10 IST" name="closure" finished-at="2024-09-02T15:40:11 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:tests.Login@36fc695d]" started-at="2024-09-02T15:40:11 IST" name="openApplication" finished-at="2024-09-02T15:40:15 IST" duration-ms="4156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Login@36fc695d]" started-at="2024-09-02T15:40:15 IST" name="login" data-provider="loginData" finished-at="2024-09-02T15:40:27 IST" duration-ms="11843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.Login@36fc695d]" started-at="2024-09-02T15:40:27 IST" name="closure" finished-at="2024-09-02T15:40:27 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- tests.Login -->
+      <class name="tests.TestDummy">
+        <test-method signature="testDummy()[pri:0, instance:tests.TestDummy@74235045]" started-at="2024-09-02T15:40:01 IST" name="testDummy" finished-at="2024-09-02T15:40:01 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDummy -->
+      </class> <!-- tests.TestDummy -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

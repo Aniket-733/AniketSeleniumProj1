@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-01T19:24:29 IST" name="Surefire suite" finished-at="2024-09-01T19:24:29 IST" duration-ms="86">
+    <groups>
+    </groups>
+    <test started-at="2024-09-01T19:24:29 IST" name="Surefire test" finished-at="2024-09-01T19:24:29 IST" duration-ms="86">
+      <class name="tests.TestTwo">
+        <test-method signature="testTwo()[pri:0, instance:tests.TestTwo@5906ebcb]" started-at="2024-09-01T19:24:29 IST" name="testTwo" finished-at="2024-09-01T19:24:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- tests.TestTwo -->
+      <class name="tests.TestDummy">
+        <test-method signature="testDummy()[pri:0, instance:tests.TestDummy@48524010]" started-at="2024-09-01T19:24:29 IST" name="testDummy" finished-at="2024-09-01T19:24:29 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDummy -->
+      </class> <!-- tests.TestDummy -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
